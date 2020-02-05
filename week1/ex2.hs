@@ -15,6 +15,6 @@ blossomingTree t
   | t >= 0 && t < 10 = tree 8 (t / 30)
   | otherwise = tree 8 0.34
 
-  
+
 main :: IO ()
 main = animationOf blossomingTree
